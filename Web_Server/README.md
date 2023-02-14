@@ -13,6 +13,7 @@ It will then save all requests that have been fufilled in a file, wget-log.
 All requests are handled by the dispatcher which then sends the request to the worker who handles the url to get said connection.
 
 To run the file: ./webserver port path num_dispatcher num_workers queue_length cache_size
+See /testing/how_to_test for more details
 
 Then, use wget in a seperate terminal to send requests to the port in which web_server was run.
 
