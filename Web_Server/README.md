@@ -7,7 +7,7 @@ Holten Bradley (bradl515)
 Rishab Ambekar (ambek006)
 
 
-We have developed a server.c which can be run through ./web_server using the make file. 
+We have developed a server.c which can be run linked with the given util files through ./web_server using the make file. 
 This server will use the local port to start the server and recieve requests through that port. 
 It will then save all requests that have been fufilled in a file, wget-log. 
 All requests are handled by the dispatcher which then sends the request to the worker who handles the url to get said connection.
